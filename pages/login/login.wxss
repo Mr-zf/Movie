@@ -1,0 +1,59 @@
+/* pages/login/login.wxss */
+page{
+  height: 100%;
+}
+.container{
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  background: #f2f2f2;
+  padding: 0;
+  box-sizing: border-box;
+}
+.login-icon{
+ flex: none;
+
+}
+.login-img{
+  width: 100%;
+}
+.login-from{
+  margin-top: 20px;
+  flex: auto;
+  height: 100%;
+}
+.inputView{
+  /* display: flex;
+  flex-direction: row; */
+  background: #fff;
+  line-height: 44px;
+}
+.nameImage,.keyImage{
+  width: 15px;
+  height: 15px;
+  margin-left: 20px;
+}
+.loginLab{
+  margin: 15px 15px 15px 10px;
+}
+.inputText {
+ /* flex: block; */
+ float: right; 
+ text-align: right; 
+ margin-right: 22px; 
+ margin-top: 11px; 
+ /* color: #ccc;  */
+ font-size: 14px
+}
+.line{
+  height: 1px;
+  margin-top:1px;
+  background: #fff;
+}
+.loginBtnView{
+  margin-top: 50px;
+  background: #f2f2f2;
+}
+.loginBtn{
+  width: 80%;
+}
